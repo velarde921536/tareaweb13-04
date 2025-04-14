@@ -1,0 +1,28 @@
+.contenedor{
+    background-color:aqua;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas:"cabecera cabecera cabecera"
+                        "cont1    cont2    cont3"
+                        "pie      pie     pie";
+}
+.contenedor .cabecera{
+    background-color: aquamarine;
+    grid-area: cabecera;
+}
+.contenedor .cont1{
+    grid-area: cont1;
+
+}
+.contenedor .cont2{
+    grid-area: cont2;
+
+}
+.contenedor .cont3{
+    grid-area: cont3;
+
+}
+.contenedor .pie{
+    background-color: blue;
+    grid-area: pie;
+}
